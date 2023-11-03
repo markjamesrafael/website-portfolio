@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junald's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b39bd6a5ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/LOGO.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+                <p>Motor Parts Sales</p>
+                <h1>Hi, I'm <span>Mark James</span> <br>Balanay Rafael</h1>
+            </div>
+        </div>
+    </div>
+    <div>
+<!--------------about------------------------------>
+        <div id = "about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…eK6uqgIL48gR1EUO9qEIyg/Gfzrq6skYv4f4B/fzrq6uoD//Z">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello, my name is Mark James Rafael and I'm a Motor Parts Seller and Dealer where I am selling some motor parts for everyone. 😊</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Motor Parts Seller</span><br>motor Parts</li>
+                                <li><span>Motor Exterior and Interiors</span><br>Motor Exterior and Interiors</li>
+                                <li><span>Scrammbler Assemble</span><br>Scrammbler Assemble</li>
+                                <li><span></span><br>Motor Automation</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020-2021</span><br>start selling</li>
+                                <li><span>2021-2022</span><br>start automation</li>
+                                <li><span>2022-up to present</span><br>motor builds</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+<!----------------services-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <h2>Motor Exterior and Interiors</h2>
+                    <p> I sell some interior and exterior of motorcycle of different kind. Either it was manual and automatic type of motorcycles.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <h2>Scrammbler Assemble</h2>
+                    <p> I do some scrammble assembling on motors andd some upgrading sessions. Even tune up and assembling some parts of thr motorcycles</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <h2>Motor Automation</h2>
+                    <p>I do some of automations on motorcycle such as one day build and more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------portfolio---------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Graphite Portrait</h3>
+                    <p>A graphite portrait is a type of drawing that uses a pencil or charcoal to create an image of a person or an object. Graphite portraits are usually made by shading and blending different tones of gray to create realistic textures and contrasts. Graphite portraits can be very detailed and expressive, capturing the emotions and personality of the subject.</p>
+                    <a href="https://web.facebook.com/photo.php?fbid=297538972787120&set=pb.100075930593240.-2207520000&type=3"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Charcoal Portrait</h3>
+                    <p>A charcoal portrait is a type of drawing that uses a black or dark gray stick of charcoal to create an image of a person or an object. Charcoal portraits are usually made by smudging and erasing the charcoal to create different values and shapes. Charcoal portraits can be very expressive and dramatic, creating strong contrasts and textures. Charcoal portraits can also be blended with other media, such as pastels or watercolors, to create different effects.</p>
+                    <a href="https://scontent.fmnl26-1.fna.fbcdn.net/v/t39.30808-6/365289784_304860345388316_2302663214138113623_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGQ6yxwlBQSoAuzyK9B5-DhHRJMzHHXbmcdEkzMcdduZ2BEpH-YEC3SG-VqSdr6zs-BqxCboc8BjKX4PgoW6aRw&_nc_ohc=CWlm722L_tYAX-CVLnI&_nc_oc=AQmutXlkFF7AiWhvtvQX7XAqeu8YRZOuWYd5qzVEvAP39C7aMbghlBxTj-vrztwO07dPYq5EBXfTp0IKB92kSr_z&_nc_zt=23&_nc_ht=scontent.fmnl26-1.fna&oh=00_AfBpXyWgYExfJjeLgWWMzkva9esGJiO8dUEt5ldI9ZBJeQ&oe=6546443B"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Colored Portrait</h3>
+                    <p>A colored portrait is a type of drawing that uses colored pencils, crayons, markers, or paints to create an image of a person or an object. Colored portraits are usually made by applying different colors and shades to create realistic or stylized effects. Colored portraits can be very colorful and vibrant, capturing the mood and atmosphere of the subject. Colored portraits can also be mixed with other media, such as graphite or charcoal, to create different textures and contrasts.</p>
+                    <a href="https://web.facebook.com/junald08/photos/pb.100075930593240.-2207520000/170794578652524/?type=3"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.facebook.com/junald08?mibextid=ZbWKwL" class="btn">See More</a>
+    </div>
+</div>
+<!------------------Contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> emjayrafael@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09703869628</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/markjames.rafael.35"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fjunaldlimos%3Figshid%3DYTQwZjQ0NmI0OA%253D%253D%26fbclid%3DIwAR1PPd0WUlxytH7VikYdXdVhZNJvuLLzS3kgIqKqDxs6nI9IZaIQQM-5mdU&h=AT1Hcqfme0F63qwntpIxBW5pKg0JMdhlqcK62qKLHbJT2WoCtPw-iSV8myOTNOUpxNi3P_RuhHtsSIbqUOTREryKAVtibMnTQ8s4VMc-kaAtc8Evxvke8glZm0Akgu9ttyZNh_6T-f-kc7V_EFPPoQ"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <a href="images/Junald Limos Resume.docx" download class="btn btn2">Dowload CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Lebron.James <i class="fa-solid fa-heart"></i> by Mark James Rafael</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz5qiXSYNBZFsYLx4KhvHSen9wiz4toPTGyPXwjx_DY9fklHr8QD74ck3NJaltm6KpVYw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
